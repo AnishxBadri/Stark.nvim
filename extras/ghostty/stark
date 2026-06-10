@@ -1,0 +1,51 @@
+# Stark
+
+background              = #0d0d0d
+foreground              = #d4d4d4
+
+cursor-color            = #d4d4d4
+cursor-style            = block
+cursor-style-blink      = false
+
+
+selection-background    = #2a2a2a
+selection-foreground    = #f0f0f0
+
+split-divider-color = #00CF9C
+
+
+# black
+palette = 0=#0a0a0a
+# red — errors, deletions
+palette = 1=#f5425d
+# green (mint) — strings, success, additions
+palette = 2=#00CF9C
+# yellow (amber) — warnings, types, modified
+palette = 3=#f59e0b
+# blue (mint) — directories, keywords
+palette = 4=#00CF9C
+# magenta (sky blue) — special files, decorators
+palette = 5=#38bdf8
+# cyan (amber) — symlinks, flags, secondary highlights
+palette = 6=#f59e0b
+# white — default foreground
+palette = 7=#d4d4d4
+
+# Bright colors
+
+# bright black — comments, inactive text
+palette = 8=#3a3a3a
+# bright red — bold errors, urgent diagnostics
+palette = 9=#ff6b6b
+# bright green — bold strings, active success
+palette = 10=#2EDBA6
+# bright yellow — bold warnings, highlighted types
+palette = 11=#fbbf24
+# bright blue (bright mint) — bold directories, focused keywords
+palette = 12=#2EDBA6
+# bright magenta (bright sky) — bold decorators, accents
+palette = 13=#7dd3fc
+# bright cyan (bright amber) — bold flags, active links
+palette = 14=#fbbf24
+# bright white — bold text, emphasized foreground
+palette = 15=#f0f0f0
