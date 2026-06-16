@@ -76,11 +76,11 @@ function M.load()
 	vim.g.terminal_color_8 = p.gray
 	vim.g.terminal_color_9 = p.red_br
 	vim.g.terminal_color_10 = p.mint_br
-	vim.g.terminal_color_11 = p.amber_br
+	vim.g.terminal_color_11 = p.gold
 	vim.g.terminal_color_12 = p.mint_br
 	vim.g.terminal_color_13 = p.sky_br
-	vim.g.terminal_color_14 = p.amber_br
-	vim.g.terminal_color_15 = p.fg_bright
+	vim.g.terminal_color_14 = p.gold
+	vim.g.terminal_color_15 = p.fg_cool
 end
 
 return M

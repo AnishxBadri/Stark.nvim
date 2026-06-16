@@ -11,12 +11,12 @@ return {
 		c = { fg = p.fg_dim, bg = p.bg },
 	},
 	insert = {
-		a = { fg = p.bg, bg = p.sky, gui = "bold" },
+		a = { fg = p.bg, bg = p.amber, gui = "bold" },
 		b = { fg = p.fg, bg = p.bg_code },
 		c = { fg = p.fg_dim, bg = p.bg },
 	},
 	visual = {
-		a = { fg = p.bg, bg = p.rose, gui = "bold" },
+		a = { fg = p.bg, bg = p.sky, gui = "bold" },
 		b = { fg = p.fg, bg = p.bg_code },
 		c = { fg = p.fg_dim, bg = p.bg },
 	},
@@ -26,7 +26,7 @@ return {
 		c = { fg = p.fg_dim, bg = p.bg },
 	},
 	command = {
-		a = { fg = p.bg, bg = p.amber, gui = "bold" },
+		a = { fg = p.bg, bg = p.gold, gui = "bold" },
 		b = { fg = p.fg, bg = p.bg_code },
 		c = { fg = p.fg_dim, bg = p.bg },
 	},

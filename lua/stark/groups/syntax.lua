@@ -17,15 +17,15 @@ function M.get(p, cfg)
 		Boolean = { fg = p.amber },
 
 		Identifier = { fg = p.fg },
-		Function = { fg = p.amber_br },
+		Function = { fg = p.gold },
 
 		-- Statements / keywords
-		Statement = { fg = p.fg_bright, bold = kw_bold },
-		Conditional = { fg = p.fg_bright, bold = kw_bold },
-		Repeat = { fg = p.fg_bright, bold = kw_bold },
-		Label = { fg = p.fg_bright, bold = kw_bold },
+		Statement = { fg = p.fg_cool, bold = kw_bold },
+		Conditional = { fg = p.fg_cool, bold = kw_bold },
+		Repeat = { fg = p.fg_cool, bold = kw_bold },
+		Label = { fg = p.fg_cool, bold = kw_bold },
 		Operator = { fg = p.fg_dim },
-		Keyword = { fg = p.fg_bright, bold = kw_bold },
+		Keyword = { fg = p.fg_cool, bold = kw_bold },
 		Exception = { fg = p.red, bold = true },
 
 		-- Preprocessor
@@ -37,12 +37,12 @@ function M.get(p, cfg)
 
 		-- Types
 		Type = { fg = p.amber },
-		StorageClass = { fg = p.fg_bright, bold = kw_bold },
+		StorageClass = { fg = p.fg_cool, bold = kw_bold },
 		Structure = { fg = p.amber },
 		Typedef = { fg = p.amber },
 
-		Special = { fg = p.amber_br },
-		SpecialChar = { fg = p.amber_br },
+		Special = { fg = p.gold },
+		SpecialChar = { fg = p.gold },
 		Tag = { fg = p.sky },
 		Delimiter = { fg = p.fg_dim },
 		Debug = { fg = p.amber },
@@ -50,7 +50,7 @@ function M.get(p, cfg)
 		Underlined = { underline = true },
 		Ignore = { fg = p.comment },
 		Error = { fg = p.red, bold = true },
-		Todo = { fg = p.amber_br, bold = true },
+		Todo = { fg = p.gold, bold = true },
 	}
 end
 

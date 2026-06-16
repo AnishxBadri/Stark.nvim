@@ -4,10 +4,10 @@ function M.get(p, cfg)
 	return {
 		-- Statusline modes
 		MiniStatuslineModeNormal = { fg = p.bg, bg = p.mint, bold = true },
-		MiniStatuslineModeInsert = { fg = p.bg, bg = p.sky, bold = true },
-		MiniStatuslineModeVisual = { fg = p.bg, bg = p.rose, bold = true },
+		MiniStatuslineModeInsert = { fg = p.bg, bg = p.amber, bold = true },
+		MiniStatuslineModeVisual = { fg = p.bg, bg = p.sky, bold = true },
 		MiniStatuslineModeReplace = { fg = p.bg, bg = p.red, bold = true },
-		MiniStatuslineModeCommand = { fg = p.bg, bg = p.amber, bold = true },
+		MiniStatuslineModeCommand = { fg = p.bg, bg = p.gold, bold = true },
 		MiniStatuslineModeOther = { fg = p.bg, bg = p.gray, bold = true },
 		MiniStatuslineFilename = { fg = p.fg, bg = p.bg_code },
 		MiniStatuslineFileinfo = { fg = p.fg_dim, bg = p.bg_code },
@@ -21,7 +21,7 @@ function M.get(p, cfg)
 		MiniIndentscopePrefix = { nocombine = true },
 
 		-- Picker
-		MiniPickMatchCurrent = { fg = p.fg_bright, bg = p.bg_hover },
+		MiniPickMatchCurrent = { fg = p.fg_cool, bg = p.bg_hover },
 		MiniPickMatchRanges = { fg = p.sky, bold = true },
 		MiniPickBorder = { fg = p.gray, bg = p.bg_code },
 		MiniPickBorderBusy = { fg = p.amber, bg = p.bg_code },
@@ -33,7 +33,7 @@ function M.get(p, cfg)
 		MiniPickIconFile = { fg = p.fg_dim },
 
 		-- Diff
-		MiniDiffSignAdd = { fg = p.mint },
+		MiniDiffSignAdd = { fg = p.mint_br },
 		MiniDiffSignChange = { fg = p.amber },
 		MiniDiffSignDelete = { fg = p.red },
 		MiniDiffOverAdd = { bg = p.diff_add },
@@ -41,13 +41,13 @@ function M.get(p, cfg)
 		MiniDiffOverDelete = { bg = p.diff_del },
 		MiniDiffOverContext = { bg = p.bg_code },
 
-		MiniJump = { fg = p.bg, bg = p.amber_br },
-		MiniJump2dSpot = { fg = p.amber_br, bold = true, nocombine = true },
+		MiniJump = { fg = p.bg, bg = p.gold },
+		MiniJump2dSpot = { fg = p.gold, bold = true, nocombine = true },
 		MiniJump2dSpotAhead = { fg = p.mint, nocombine = true },
 		MiniJump2dSpotUnique = { fg = p.amber, bold = true, nocombine = true },
 
 		MiniHipatternsFixme = { fg = p.bg, bg = p.red, bold = true },
-		MiniHipatternsTodo = { fg = p.bg, bg = p.amber_br, bold = true },
+		MiniHipatternsTodo = { fg = p.bg, bg = p.gold, bold = true },
 		MiniHipatternsNote = { fg = p.bg, bg = p.sky, bold = true },
 		MiniHipatternsHack = { fg = p.bg, bg = p.amber, bold = true },
 	}

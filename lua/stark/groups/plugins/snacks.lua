@@ -10,9 +10,9 @@ function M.get(p, cfg)
 		SnacksPickerNormal = { fg = p.fg, bg = p.bg_code },
 		SnacksPickerPreview = { fg = p.fg, bg = p.bg },
 		SnacksPickerPrompt = { fg = p.sky },
-		SnacksPickerSearch = { fg = p.amber_br, bold = true },
+		SnacksPickerSearch = { fg = p.gold, bold = true },
 		SnacksPickerMatch = { fg = p.sky, bold = true },
-		SnacksPickerSelected = { fg = p.mint },
+		SnacksPickerSelected = { fg = p.fg_cool, bg = p.bg_hover },
 		SnacksPickerDir = { fg = p.fg_dim },
 
 		SnacksDashboardHeader = { fg = p.mint },

@@ -10,7 +10,7 @@ function M.get(p, cfg)
 		WhichKeyFloat = { bg = p.bg_code },
 		WhichKeyBorder = { fg = p.gray, bg = p.bg_code },
 		WhichKeyValue = { fg = p.fg_dim },
-		WhichKeyTitle = { fg = p.fg_bright, bold = true },
+		WhichKeyTitle = { fg = p.fg_cool, bold = true },
 	}
 end
 

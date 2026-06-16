@@ -5,13 +5,13 @@ function M.get(p, cfg)
 		NeoTreeNormal = { fg = p.fg, bg = p.bg_code },
 		NeoTreeNormalNC = { fg = p.fg, bg = p.bg_code },
 		NeoTreeEndOfBuffer = { fg = p.bg_code, bg = p.bg_code },
-		NeoTreeRootName = { fg = p.fg_bright, bold = true },
+		NeoTreeRootName = { fg = p.fg_cool, bold = true },
 		NeoTreeDirectoryName = { fg = p.fg },
 		NeoTreeDirectoryIcon = { fg = p.sky },
 		NeoTreeFileName = { fg = p.fg },
 		NeoTreeFileNameOpened = { fg = p.mint, italic = true },
 		NeoTreeFileIcon = { fg = p.fg_dim },
-		NeoTreeSymbolicLinkTarget = { fg = p.amber_br, italic = true },
+		NeoTreeSymbolicLinkTarget = { fg = p.gold, italic = true },
 
 		-- Git status
 		NeoTreeGitAdded = { fg = p.mint },
@@ -28,7 +28,7 @@ function M.get(p, cfg)
 		NeoTreeExpander = { fg = p.fg_dim },
 
 		-- Tabs
-		NeoTreeTabActive = { fg = p.fg_bright, bg = p.bg, bold = true },
+		NeoTreeTabActive = { fg = p.fg_cool, bg = p.bg, bold = true },
 		NeoTreeTabInactive = { fg = p.fg_dim, bg = p.bg_code },
 		NeoTreeTabSeparatorActive = { fg = p.bg, bg = p.bg },
 		NeoTreeTabSeparatorInactive = { fg = p.bg_code, bg = p.bg_code },

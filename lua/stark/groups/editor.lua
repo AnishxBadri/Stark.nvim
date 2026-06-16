@@ -9,14 +9,14 @@ function M.get(p, cfg)
 		NormalNC = { fg = p.fg, bg = bg },
 		NormalFloat = { fg = p.fg, bg = p.bg_code },
 		FloatBorder = { fg = p.fg_dim, bg = p.bg_code },
-		FloatTitle = { fg = p.fg_bright, bg = p.bg_code, bold = true },
+		FloatTitle = { fg = p.fg_cool, bg = p.bg_code, bold = true },
 		FloatFooter = { fg = p.fg_dim, bg = p.bg_code },
 
 		-- Cursor / line numbers
 		ColorColumn = { bg = p.bg_code },
 		CursorLine = { bg = p.bg_subtle },
 		CursorColumn = { bg = p.bg_subtle },
-		CursorLineNr = { fg = p.fg_bright, bold = true },
+		CursorLineNr = { fg = p.fg_cool, bold = true },
 		LineNr = { fg = p.fg_dim },
 		LineNrAbove = { fg = p.fg_dim },
 		LineNrBelow = { fg = p.fg_dim },
@@ -33,11 +33,11 @@ function M.get(p, cfg)
 
 		TabLine = { fg = p.fg_dim, bg = p.bg_code },
 		TabLineFill = { bg = p.bg_code },
-		TabLineSel = { fg = p.fg_bright, bg = p.bg, bold = true },
+		TabLineSel = { fg = p.fg_cool, bg = p.bg, bold = true },
 
 		-- Pmenu
 		Pmenu = { fg = p.fg, bg = p.bg_code },
-		PmenuSel = { fg = p.fg_bright, bg = p.bg_hover, bold = true },
+		PmenuSel = { fg = p.fg_cool, bg = p.bg_hover, bold = true },
 		PmenuSbar = { bg = p.bg_hover },
 		PmenuThumb = { bg = p.fg_dim },
 		PmenuExtra = { fg = p.fg_dim, bg = p.bg_code },
@@ -45,7 +45,7 @@ function M.get(p, cfg)
 		PmenuKind = { fg = p.sky, bg = p.bg_code },
 		PmenuKindSel = { fg = p.sky, bg = p.bg_hover },
 
-		WildMenu = { fg = p.fg_bright, bg = p.bg_hover },
+		WildMenu = { fg = p.fg_cool, bg = p.bg_hover },
 		EndOfBuffer = { fg = p.bg_hover },
 		NonText = { fg = p.bg_hover },
 		SpecialKey = { fg = p.comment },
@@ -58,13 +58,13 @@ function M.get(p, cfg)
 		SelectionHighlightBackground = { bg = p.bg_select },
 
 		-- Search
-		Search = { fg = p.bg, bg = p.amber_br },
-		IncSearch = { fg = p.bg, bg = p.sky },
-		CurSearch = { fg = p.bg, bg = p.mint },
+		Search = { fg = p.bg, bg = p.gold },
+		IncSearch = { fg = p.bg, bg = p.sky_br },
+		CurSearch = { fg = p.bg, bg = p.sky_br },
 		Substitute = { fg = p.bg, bg = p.red },
 
-		MatchParen = { fg = p.amber_br, bold = true, underline = true },
-		QuickFixLine = { fg = p.amber_br, bold = true },
+		MatchParen = { fg = p.gold, bold = true, underline = true },
+		QuickFixLine = { fg = p.gold, bold = true },
 		qfLineNr = { fg = p.fg_dim },
 		qfFileName = { fg = p.sky },
 
@@ -81,7 +81,7 @@ function M.get(p, cfg)
 		SpellLocal = { undercurl = true, sp = p.mint },
 		SpellRare = { undercurl = true, sp = p.sky_br },
 
-		Title = { fg = p.fg_bright, bold = true },
+		Title = { fg = p.fg_cool, bold = true },
 		Directory = { fg = p.sky },
 		helpHyperTextJump = { fg = p.sky, underline = true },
 		helpSectionDelim = { fg = p.comment },
@@ -90,7 +90,7 @@ function M.get(p, cfg)
 		DiffAdd = { fg = p.mint, bg = p.diff_add },
 		DiffChange = { fg = p.amber, bg = p.diff_chg },
 		DiffDelete = { fg = p.red, bg = p.diff_del },
-		DiffText = { fg = p.amber_br, bg = p.diff_txt, bold = true },
+		DiffText = { fg = p.gold, bg = p.diff_txt, bold = true },
 		Added = { fg = p.mint },
 		Changed = { fg = p.amber },
 		Removed = { fg = p.red },

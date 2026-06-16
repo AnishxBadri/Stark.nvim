@@ -3,7 +3,7 @@ local M = {}
 function M.get(p, cfg)
 	return {
 		LazyH1 = { fg = p.bg, bg = p.mint, bold = true },
-		LazyH2 = { fg = p.fg_bright, bold = true },
+		LazyH2 = { fg = p.fg_cool, bold = true },
 		LazyButton = { fg = p.fg, bg = p.bg_code },
 		LazyButtonActive = { fg = p.bg, bg = p.sky, bold = true },
 		LazySpecial = { fg = p.sky },

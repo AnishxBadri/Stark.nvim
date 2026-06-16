@@ -14,17 +14,17 @@ A minimal dark Neovim colorscheme with a deep black background, off-white foregr
 
 ## 🎨 Palette
 
-| Key         | Hex       | Role                              |
-|-------------|-----------|-----------------------------------|
-| `bg`        | `#0d0d0d` | editor canvas                     |
-| `fg`        | `#d4d4d4` | normal text                       |
-| `fg_bright` | `#ead8b6` | emphasized text, bold keywords    |
-| `mint`      | `#00CF9C` | strings, additions, success       |
-| `amber`     | `#f59e0b` | types, warnings, numbers          |
-| `sky`       | `#38bdf8` | decorators, attributes, links     |
-| `red`       | `#f5425d` | errors, deletions, exceptions     |
-| `rose`      | `#fb7185` | parameters, self/this             |
-| `teal`      | `#5eead4` | regex, escapes, special chars     |
+| Key       | Hex       | Role                              |
+|-----------|-----------|-----------------------------------|
+| `bg`      | `#0d0d0d` | editor canvas                     |
+| `fg`      | `#ead8b6` | body text, identifiers (warm bone)|
+| `fg_cool` | `#d4d4d4` | keywords, modules, titles         |
+| `mint`    | `#00CF9C` | strings, additions, success       |
+| `amber`   | `#FEB301` | types, numbers, constants         |
+| `sky`     | `#0091FF` | decorators, attributes, data-keys |
+| `red`     | `#f5425d` | diagnostics only                  |
+| `rose`    | `#fb7185` | parameters, self/this             |
+| `teal`    | `#5eead4` | regex, escapes, special chars     |
 
 Use these keys in `on_colors` / `on_highlights` to override. Full palette in [`lua/stark/palette.lua`](./lua/stark/palette.lua).
 
@@ -95,7 +95,7 @@ Stark comes with the following defaults:
   transparent = false,        -- enable transparent background
   italic_comments = true,     -- italicize comments
   italic_imports = true,      -- italicize imports
-  bold_keywords = true,       -- bold keywords (uses fg_bright, no hue)
+  bold_keywords = true,       -- bold keywords (uses fg_cool, no hue)
   on_colors = function(colors) end,
   on_highlights = function(highlights, colors) end,
   plugins = {
