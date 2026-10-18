@@ -2,7 +2,7 @@
 -- Drop-in lualine theme. Usage:
 --   require('lualine').setup { options = { theme = 'stark' } }
 
-local p = require("stark").palette
+local p = require("stark").colors or require("stark").palette
 
 return {
 	normal = {

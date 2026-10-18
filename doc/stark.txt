@@ -1,0 +1,39 @@
+*stark.txt*  Minimal dark colorscheme for Neovim
+
+==============================================================================
+STARK                                                     *stark* *stark.nvim*
+
+Deep black background, off-white text, mint, amber and sky accents.
+Requires Neovim 0.9+.
+
+==============================================================================
+USAGE                                                            *stark-usage*
+
+>lua
+    require("stark").setup({})   -- optional, call before colorscheme
+    vim.cmd.colorscheme("stark")
+<
+Lualine: >lua
+    require("lualine").setup({ options = { theme = "stark" } })
+<
+==============================================================================
+OPTIONS                                                        *stark-options*
+
+Defaults: >lua
+    {
+      transparent = false,      -- no editor background
+      italic_comments = true,
+      italic_imports = true,
+      bold_keywords = false,
+      on_colors = function(colors) end,         -- edit palette
+      on_highlights = function(hl, colors) end, -- edit highlight groups
+      plugins = {               -- set any to false to skip its groups
+        telescope = true, snacks = true, ["neo-tree"] = true, cmp = true,
+        gitsigns = true, lazy = true, mini = true, whichkey = true,
+        notify = true, indent = true,
+      },
+    }
+<
+Palette keys are listed in `lua/stark/palette.lua`.
+
+ vim:tw=78:ts=8:ft=help:norl:

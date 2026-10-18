@@ -95,7 +95,7 @@ Stark comes with the following defaults:
   transparent = false,        -- enable transparent background
   italic_comments = true,     -- italicize comments
   italic_imports = true,      -- italicize imports
-  bold_keywords = true,       -- bold keywords (uses fg_cool, no hue)
+  bold_keywords = false,      -- bold keywords (uses fg_cool, no hue)
   on_colors = function(colors) end,
   on_highlights = function(highlights, colors) end,
   plugins = {

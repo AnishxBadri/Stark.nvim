@@ -10,14 +10,14 @@ return {
 
 	-- Foregrounds
 	gray = "#3a3a3a", -- indent guides, separators
-	comment = "#585858", -- comments, folds
+	comment = "#585858", -- code comments
 	fg_dim = "#8a8a8a", -- line numbers, operators, inactive UI
 	fg = "#ead8b6", -- normal text
-	fg_cool = "#d4d4d4", -- warm bone — emphasized text, bold keywords
+	fg_cool = "#d4d4d4", -- off-white — keywords, modules, titles
 
 	-- Accents
 	black = "#0a0a0a", -- terminal slot 0
-	red = "#f5425d", -- errors, deletions, exceptions
+	red = "#f5425d", -- diagnostics, deletions
 	mint = "#00CF9C", -- strings, additions, success, split divider
 	amber = "#FEB301", -- types, warnings, numbers, modified
 	sky = "#0091FF", -- decorators, attributes, special files, links

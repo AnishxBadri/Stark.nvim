@@ -27,6 +27,8 @@ function M.load()
 	if type(cfg.on_colors) == "function" then
 		cfg.on_colors(p)
 	end
+	-- Expose final colors (after on_colors) for lualine and other integrations
+	require("stark").colors = p
 
 	vim.cmd("highlight clear")
 	if vim.fn.exists("syntax_on") == 1 then
