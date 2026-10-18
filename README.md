@@ -1,4 +1,9 @@
-# 🌑 Stark
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stark-wordmark-dark.svg">
+    <img alt="Stark" src="assets/stark-wordmark.svg" width="320">
+  </picture>
+</h1>
 
 A minimal dark Neovim colorscheme with a deep black background, off-white foreground, and mint + amber + sky accents.
 
@@ -162,6 +167,7 @@ More ports (iTerm, Alacritty, Kitty) planned.
 
 ```
 stark.nvim/
+├── assets/                  ← logo (wordmark + icon)
 ├── colors/
 │   └── stark.lua              ← :colorscheme stark entry
 ├── extras/
